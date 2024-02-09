@@ -1,9 +1,11 @@
 AUTHOR = 'Tim Visser'
-SITENAME = 'Cybersecurity Handbook'
+SITENAME = 'Cybersecurity Reference Guide'
 SITEURL = ""
 THEME = "themes\\pelican-alchemy\\alchemy"
 
 PATH = "content"
+
+RFG_FAVICONS = True
 
 TIMEZONE = 'Europe/Rome'
 
