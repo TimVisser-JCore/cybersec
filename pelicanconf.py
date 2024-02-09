@@ -3,15 +3,15 @@ SITENAME = 'Cybersecurity Handbook'
 SITEURL = ""
 THEME = "themes\\pelican-alchemy\\alchemy"
 
-HIDE_AUTHORS = True
-HIDE_DATE = True
-HIDE_CATEGORY = True
-
 PATH = "content"
 
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'English'
+
+HIDE_ARCHIVES = True
+HIDE_CATEGORIES = True
+HIDE_AUTHORS = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
