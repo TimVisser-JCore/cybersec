@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="english">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Access Control | Cybersecurity Handbook
+</title>
+  <link rel="canonical" href="/access-control.html">
+
+
+  <link rel="stylesheet" href="/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="/theme/css/theme.css">
+
+  
+  <meta name="description" content="Here's a quick summary about access control">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="/">Cybersecurity Handbook</a></h1>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="/#" target="_blank">Cybersecurity Handbook Repo</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Access Control
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2024-02-08T00:00:00+01:00">
+          <i class="fas fa-clock"></i>
+          Thu 08 February 2024
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="/category/misc.html">misc</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="/author/tim-visser.html">Tim Visser</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <h3>Mitigates against</h3>
+<ul>
+<li>Broken access control</li>
+</ul>
+<p>Access control refers to the concept of restricting and allowing access to sensitive resources. We observe this concept from the perspective of the principle of least privilege (PoLP). We want users to have that and only that degree of access that allows them to carry out their responsibilities without significant obstruction. </p>
+<p>With access to sensitive resources comes an inevitable degree of risk. By adhering to PoLP we indicate that we observe this risk and limit its impact to the lowest possible severity.</p>
+<p>For our purposes we can broadly distinguish two forms of access control: attribute-based (ABAC) and role-based (RBAC). With attribute-based control, both resources and users have a set of attributes associated with them that are validated against a set of rules that form the bridge between user and resource. Role-based access control, on the other hand, establishes a set of roles that collect a number of permissions. A user can be assigned a set of roles that in turn allows them to access the resources required to satisfy the requirements of their role.</p>
+<p><em>[ Intuition: RBAC &gt; ABAC for our case, research further to verify ]</em><br>
+Maintaining RBAC setup is easier as most administrative load is up-front when defining appropriate roles</p>
+<p>Successful and sufficient role-based access control hinges on three separate pillars:<br>
+- Access
+- Operations
+- Sessions</p>
+<h2>Access</h2>
+<p>Which resources are exposed to the user? In simple terms, this is in reference to everything the user can view.</p>
+<h2>Operations</h2>
+<p>For our purposes we define an operation as any action that retrieves, modifies or otherwise interacts with a resource.</p>
+<h2>Session management</h2>
+<p>This relates to when, for how long and under what conditions the user is allowed to access these resources.</p>
+<p>[ Investigate different RBAC variations ? (flat, hierarchical, constrained, symmetric) ]</p>
+<p>As different systems have various ways of implementing access control, there is no one-size fits all approach. As such, it should be evaluated how this mitigation can be applied to appropriate systems on a case by case basis.  A good place to start is the team's cloud platform, as this is the core of most operations a development team will be involved in. Safeguarding the resources encompassed by such a platform will have a sizeable impact, especially when combined with proper authentication and authorisation as detailed in [ ref. to auth mitigation ]  </p>
+<p>[ Example of RBAC implemented on platform t.b.d.  -&gt; Provide example of implementation in e.g. Spring -&gt; hierarchical roles etc. ]  </p>
+<p>[ Section on assigning roles: commutative assignment, four eyes, etc.  -&gt; don't be too specific about lower level considerations ]  </p>
+<p>[ Removing unused access? ]  </p>
+<p>[ Split between the tools the team uses, and the application(s) the team builds ]  </p>
+    </div>
+  </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="/categories.html">Categories</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
