@@ -3,6 +3,10 @@ SITENAME = 'Cybersecurity Handbook'
 SITEURL = ""
 THEME = "themes\\pelican-alchemy\\alchemy"
 
+HIDE_AUTHORS = True
+HIDE_DATE = True
+HIDE_CATEGORY = True
+
 PATH = "content"
 
 TIMEZONE = 'Europe/Rome'

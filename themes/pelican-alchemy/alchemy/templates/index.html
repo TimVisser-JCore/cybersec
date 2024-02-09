@@ -26,30 +26,6 @@
           {{ article.summary|striptags }}
         </div>
       </header>
-      <div class="col-sm-4 text-muted">
-        <ul>
-          {% if not HIDE_DATE %}
-          <li title="{{ article.date.isoformat() }}">
-            <i class="fas fa-clock"></i>
-            {{ article.locale_date }}
-          </li>
-          {% endif %}
-          {% if not HIDE_CATEGORY %}
-          <li>
-            <i class="fas fa-folder-open"></i>
-            <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-          </li>
-          {% endif %}
-          {% if not HIDE_AUTHORS and article.authors %}
-            <li>
-              <i class="fas fa-user"></i>
-              {% for author in article.authors %}
-                <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
-              {% endfor %}
-            </li>
-          {% endif %}
-        </ul>
-      </div>
     </article>
     {% if not loop.last %}
       <hr>
