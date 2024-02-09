@@ -12,9 +12,11 @@ With access to sensitive resources comes an inevitable degree of risk. By adheri
 For our purposes we can broadly distinguish two forms of access control: attribute-based (ABAC) and role-based (RBAC). With attribute-based control, both resources and users have a set of attributes associated with them that are validated against a set of rules that form the bridge between user and resource. Role-based access control, on the other hand, establishes a set of roles that collect a number of permissions. A user can be assigned a set of roles that in turn allows them to access the resources required to satisfy the requirements of their role.
 
 _[ Intuition: RBAC > ABAC for our case, research further to verify ]_  
+
 Maintaining RBAC setup is easier as most administrative load is up-front when defining appropriate roles
 
-Successful and sufficient role-based access control hinges on three separate pillars:  
+Successful and sufficient role-based access control hinges on three separate pillars:
+
 - Access
 - Operations
 - Sessions

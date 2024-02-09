@@ -7,5 +7,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque por
 - [Cyber Hygiene]({filename}/cyber-hygiene.md)
 - [Access Control]({filename}/access-control.md)
 - [Encryption]({filename}/encryption.md)
-- [Logging/Monitoring]({filename}/logging-monitoring.md)
+- [Logging & Monitoring]({filename}/logging-monitoring.md)
 - [Scanning]({filename}/scanning.md)
