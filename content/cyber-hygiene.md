@@ -1,5 +1,6 @@
 Title: Cyber Hygiene
 Date: 2024-02-08
+Summary: Short summary of Cyber Hygiene
 
 ### Mitigates against
 - Cryptographic failures
