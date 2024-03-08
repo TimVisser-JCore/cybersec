@@ -4,6 +4,8 @@ Summary: This page will guide you on your journey through the cybersecurity hand
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque porttitor velit sit amet ullamcorper. Nunc ac lorem neque. Curabitur ante sapien, vehicula eget aliquam sit amet, pretium in orci. Maecenas tincidunt dolor purus, et faucibus ipsum placerat quis. Suspendisse pharetra metus lectus, quis commodo augue consequat eget. Etiam eget metus fringilla erat ultricies mattis.
 
+Infographic goes here:
+
 ![Infographic]({static}/images/infographic.png)
 
 - [Cyber Hygiene]({filename}/cyber-hygiene.md)
