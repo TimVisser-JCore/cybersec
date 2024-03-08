@@ -9,7 +9,9 @@ on:
 
 
 permissions:
-  id-token: {write,read}
+  id-token: write
+  deployments: write
+  pages: write
 
 jobs:
   build:
