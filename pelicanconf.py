@@ -5,6 +5,8 @@ THEME = "themes/pelican-alchemy/alchemy"
 
 PATH = "content"
 
+STATIC_PATHS = ["images"]
+
 RFG_FAVICONS = True
 
 TIMEZONE = 'Europe/Rome'
