@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: GitHub Pages Pelican Build Action
-      uses: nelsonjchen/gh-pages-pelican-action@0.2.0
+    - name: Pelican Simple Build
+      uses: bimbimprasetyoafif/pelican-simple@v1
+            
             
             
