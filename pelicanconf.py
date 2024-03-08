@@ -1,6 +1,6 @@
 AUTHOR = 'Tim Visser'
 SITENAME = 'Cybersecurity Reference Guide'
-SITEURL = ""
+SITEURL = "https://timvisser-jcore.github.io/cybersec/"
 THEME = "themes/pelican-alchemy/alchemy"
 
 PATH = "content"
