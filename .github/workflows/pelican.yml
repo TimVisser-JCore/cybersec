@@ -12,6 +12,7 @@ permissions:
   id-token: write
   deployments: write
   pages: write
+  repository-projects: write
 
 jobs:
   build:
