@@ -14,8 +14,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Pelican Simple Build
-      uses: bimbimprasetyoafif/pelican-simple@v1
+    - name: GitHub Pages Pelican Build Action
+      uses: nelsonjchen/gh-pages-pelican-action@0.2.0
+            
             
             
             
