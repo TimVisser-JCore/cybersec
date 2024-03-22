@@ -6,7 +6,7 @@ THEME = "themes/pelican-alchemy/alchemy"
 PATH = "content"
 
 STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 RFG_FAVICONS = True
 
