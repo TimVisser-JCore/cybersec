@@ -1,9 +1,9 @@
 AUTHOR = 'Tim Visser'
 SITENAME = 'Cybersecurity Reference Guide'
 SITEURL = 'https://cybersec.timvisser.nl'
-THEME = "themes/pelican-alchemy/alchemy"
+THEME = 'themes/pelican-alchemy/alchemy'
 
-PATH = "content"
+PATH = 'content'
 
 STATIC_PATHS = ['images']
 
