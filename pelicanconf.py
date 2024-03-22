@@ -26,7 +26,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Cybersecurity Handbook Repo", "#"),
+    ("Cybersecurity Handbook Repo", "#",),
+    ("Repo", "https://github.com/TimVisser-JCore/cybersec")
 )
 
 # Social widget
