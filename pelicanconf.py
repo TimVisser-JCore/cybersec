@@ -26,6 +26,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
+    ("Cybersecurity Handbook Repo", "#",),
     ("Repository (Github)", "https://github.com/TimVisser-JCore/cybersec")
 )
 
