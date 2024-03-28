@@ -27,6 +27,7 @@ Before incorporating external code into your project, conduct a thorough evaluat
 If - in addition to this - you would like to maintain further control over the lifecycle of your dependencies, managing your own repository might be a good next step. A good starting point for this could be [SonaType Nexus](https://www.sonatype.com/products/sonatype-nexus-repository).
 
 Some highlights of the benefits of using a solution like this:
+
 - Centralized Control: Managed repositories provide a centralized platform for hosting and managing dependencies. Nexus Cloud, for example, allows you to maintain strict control over the artifacts your project relies on, ensuring version consistency and security.
 - Efficient Collaboration: These repositories facilitate efficient collaboration by offering a shared space where team members can access, contribute to, and synchronize dependencies. This collaborative environment promotes consistency across development environments.
 - Caching for Efficiency: Managed repositories often employ caching mechanisms, reducing the need to repeatedly download dependencies from external sources. This not only enhances build efficiency but also ensures a more stable and reliable development process.
