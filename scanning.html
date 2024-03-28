@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="english">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Scanning | Cybersecurity Reference Guide
+</title>
+  <link rel="canonical" href="https://cybersec.timvisser.nl/scanning.html">
+
+    <link rel="apple-touch-icon" href="https://cybersec.timvisser.nl/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="https://cybersec.timvisser.nl/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://cybersec.timvisser.nl/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://cybersec.timvisser.nl/manifest.json">
+    <meta name="theme-color" content="#333333">
+
+  <link rel="stylesheet" href="https://cybersec.timvisser.nl/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cybersec.timvisser.nl/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cybersec.timvisser.nl/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://cybersec.timvisser.nl/theme/css/theme.css">
+
+  
+  <meta name="description" content="Your project's vigilant guardian. Regular scans of your projects, environment and credentials can allow you to fortify your digital assets against threats.">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="https://cybersec.timvisser.nl/">Cybersecurity Reference Guide</a></h1>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://github.com/TimVisser-JCore/cybersec" target="_blank">Repository (GitHub)</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Scanning
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2024-02-09T00:00:00+01:00">
+          <i class="fas fa-clock"></i>
+          Fri 09 February 2024
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://cybersec.timvisser.nl/category/misc.html">misc</a>
+        </li>
+      </ul>
+    </header>
+    <div class="content">
+      <h3>Mitigates against</h3>
+<ul>
+<li>Broken access control </li>
+<li>Insecure design</li>
+<li>Vulnerable and outdated components </li>
+<li>Security misconfigurations</li>
+</ul>
+<p>In software development we often deal with a highly complex landscape of innumerable dependencies and tools that are interconnected to eventually provide some sort of functionality that is the intended purpose of an application. In this process, it's easy to lose sight of the finer details of an implementation. Maintaining this overview manually would be a herculean task, and as developers we'd rather be focused on providing value to the user than carrying out janitorial tasks to maintain our applications. This is where automated scanning comes in. In this topic, we will touch on a number of scanning types and some of its intricacies.</p>
+<h2>Credential Scanning</h2>
+<p>Credentials are the keys to the digital kingdom, and their security is paramount. Developers, embrace credential scanning practices to detect exposed or compromised credentials. Although by no means a best practice, during development it may happen that credentials sneak into the codebase with potentially disastrous results when these credentials leak outside the scope of its intended owners. We can limit the risk associated with this threat vector using credential scanners. While numerous solutions exist, a good place to start may be:</p>
+<ul>
+<li><a href="https://github.com/SAP/credential-digger">SAP Credential-Digger</a></li>
+<li><a href="https://www.gitguardian.com/">GitGuardian</a></li>
+</ul>
+<p>At a basic level, these tools work by scanning your codebase on new additions to determine the presence of live credentials. Quality gates may be set up (as discussed in the <a href="https://cybersec.timvisser.nl/cyber-hygiene.html">Cyber Hygiene</a>) topic to enforce the amendment of a contribution to the codebase when credentials are detected where they should not be present.</p>
+<h2>Vulnerability Scanning</h2>
+<p>Every line of code holds the potential for vulnerabilities. Integrate vulnerability scanning tools into the development pipeline to systematically identify and address weaknesses. Regular scans unveil the vulnerabilities that might be exploited by malicious actors, fortifying the application against potential breaches. This subject is largely discussed in the <a href="https://cybersec.timvisser.nl/cyber-hygiene.html">Cyber Hygiene</a> topic.</p>
+<h2>Dependency Scanning</h2>
+<p>The software ecosystem is a tapestry woven with dependencies, each thread carrying its own risks. Employ dependency scanning tools to scrutinize libraries, frameworks, and third-party components for known vulnerabilities. This practice ensures that every strand in the digital tapestry is resilient, guarding against the vulnerabilities that may reside in the shadows. The <a href="https://cybersec.timvisser.nl/cyber-hygiene.html">Cyber Hygiene</a> topic goes into further detail about this form of scanning.</p>
+<h2>Code Quality Scanning</h2>
+<p>The quality of code is the cornerstone of robust applications. Embrace code quality scanning tools that assess adherence to coding standards, identify potential bugs, and enforce best practices. A well-orchestrated code quality scan ensures that the composition of your digital landscape remains elegant and error-free. While a large number of solutions for this exist, a good place to start is the solutions provided by <a href="https://www.sonarsource.com/products/sonarqube/">SonarQube</a>.</p>
+<p>Good metrics to focus on (in addition to many others) depend on the team and its requirements, but a good place to start would be test coverage, complexity and code smells. SonarQube can also be used to fulfill several of the recommendations made in the <a href="https://cybersec.timvisser.nl/cyber-hygiene.html">Cyber Hygiene</a> topic.</p>
+<h2>Regular audits and compliance</h2>
+<p>While not the main topic of this guide, some consideration may be given to compliance needs of the industry the team operates governance and compliance may be a factor to consider. In such cases, take these influences into account and do not be afraid to reach out to the appropriate knowledge holders within or outside your company to satisfy these requirements.</p>
+<p>In the grand overture of software development, where each line of code contributes to the composition, scanning emerges as the vigilant conductor, harmonizing the defense against potential vulnerabilities and threats. Developers, heed the melodies of scanning with precision, for it is in the orchestrated interplay of scans that the security of digital landscapes finds its strength and resilience.</p>
+    </div>
+  </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
