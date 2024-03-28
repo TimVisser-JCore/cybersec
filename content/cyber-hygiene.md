@@ -48,6 +48,7 @@ When utilizing a dependency, do not only consider its benefits, but also the lon
 Stay informed about potential vulnerabilities by subscribing to security mailing lists or utilizing tools like GitHub's security advisory features in addition to dependency checking tools already discussed previously. Timely awareness enables you to address threats before they escalate. The specifics of this practice greatly depend on the specificities of your project and environment.
 
 Personal favourites of the author include:
+
 - [The Hacker News](https://thehackernews.com/)
 - [Troy Hunt](https://www.troyhunt.com/)
 - [Krebs on Security](https://krebsonsecurity.com/)
