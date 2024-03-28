@@ -34,7 +34,7 @@ Is your application strongly dependent on the particulars of its users' identiti
 
 ### Cryptography
 
-Does your team handle sensitive data, whether internally or outward-facing as part of your application? Is the nature of the data you process either highly personal, legally protected or just highly sensitive for any number of reasons? Take a look at the [Encryption]({filename}/encryption.md) topic.
+Does your team handle sensitive data, whether internally or outward-facing as part of your application? Is the nature of the data you process either highly personal, legally protected or just highly sensitive for any number of reasons? Take a look at the [Encryption]({filename}/cryptography.md) topic.
 
 ### Logging & Monitoring
 
