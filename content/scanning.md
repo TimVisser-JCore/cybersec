@@ -35,6 +35,6 @@ Good metrics to focus on (in addition to many others) depend on the team and its
 
 ## Regular audits and compliance
 
-While not the main topic of this guide, some consideration may be given to compliance needs of the industry the team operates 
+While not the main topic of this guide, some consideration may be given to compliance needs of the industry the team operates governance and compliance may be a factor to consider. In such cases, take these influences into account and do not be afraid to reach out to the appropriate knowledge holders within or outside your company to satisfy these requirements.
 
 In the grand overture of software development, where each line of code contributes to the composition, scanning emerges as the vigilant conductor, harmonizing the defense against potential vulnerabilities and threats. Developers, heed the melodies of scanning with precision, for it is in the orchestrated interplay of scans that the security of digital landscapes finds its strength and resilience.
