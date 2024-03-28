@@ -60,4 +60,8 @@ Conduct regular code audits using tools like static code analyzers and security 
 
 The [Scanning]({filename}/scanning.md) topic goes into a little more detail on this subject.
 
+## Quality gates
+
+All of these interventions are useful, but depending on your team's maturity you may find that output of any tools may simply be ignored, leading to a severely reduced impact within on your development process and thereby the resulting output of your team. As such, it can be worthwhile configuring quality gates within your release process. While the specificities of this differ on a platform by platform basis, in a very basic sense a quality gate is a pipeline step that checks whether certain conditions have been satisfied. If so, the deployment may continue. If not, a deployment is halted until it is ready for the limelight (after solving any issues). For optimal results, determine your team's exact needs, balancing strict enforcement with the ability to maintain your codebase productively. Too strict, and the team might encounter unnecessary roadblocks while not significantly benefiting the project's security. When set up appropriately, this can enforce the quality requirements that the team determines are right for them, their application and the landscape it operates in.
+
 In the intricate world of coding, cyber hygiene is our project's tailored wellness routine. Picture dependency management as selecting precise nutritional supplements for your digital diet. It involves meticulous updates and integrations, ensuring our codebase thrives on the latest and most secure external elements.
