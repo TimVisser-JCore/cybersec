@@ -19,6 +19,7 @@ Employ package managers such as npm, pip, or Maven to streamline the installatio
 
 ## Vet Your Dependencies
 Before incorporating external code into your project, conduct a thorough evaluation. Opt for well-maintained libraries with an active community, positive reviews, and a developer with a solid reputation. Of course, although it is wise to maintain good practices when selecting and putting dependencies into use in your project, you're not alone in carrying this responsibility. There are myriad tools to assist you with this task. Although each of these has its unique pros and cons, you may consider taking a look at any of the following:
+
 - [Snyk](https://snyk.io/)
 - [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
 
