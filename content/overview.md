@@ -16,7 +16,7 @@ The pages below serve as your starting point on your road to improving your team
 
 - [Cyber Hygiene]({filename}/cyber-hygiene.md)
 - [Access Control]({filename}/access-control.md)
-- [Encryption]({filename}/encryption.md)
+- [Encryption]({filename}/cryptography.md)
 - [Logging & Monitoring]({filename}/logging-monitoring.md)
 - [Scanning]({filename}/scanning.md)
 

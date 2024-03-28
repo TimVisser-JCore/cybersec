@@ -1,6 +1,6 @@
 Title: Access Control
 Date:2024-02-08
-Summary: Here's a quick summary about access control
+Summary: Your digital gatekeeper. Establish entry rules, control access levels, and monitor for any unwarranted entries. It's the VIP security detail for your data fortress.
 
 ### Mitigates against
 - Broken access control

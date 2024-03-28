@@ -1,6 +1,6 @@
 Title: Cyber Hygiene
 Date: 2024-02-08
-Summary: Short summary of cyber hygiene
+Summary: In coding, cyber hygiene is like keeping your project happy and healthy. Regular updates, careful dependency management, and strategically phasing out old code and features ensure your codebase stays robust and secure. 
 
 ### Mitigates against
 - Cryptographic failures

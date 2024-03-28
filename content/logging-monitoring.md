@@ -1,6 +1,6 @@
 Title: Logging & Monitoring
 Date: 2024-02-09
-Summary: Short summary about logging & monitoring
+Summary: Your project's digital guards. They quietly watch and alert you to any unusual activity. Set up robust logging, vigilant monitoring, and stay one step ahead for a secure digital domain. 
 
 ### Mitigates against
 - Identification and authentication failures

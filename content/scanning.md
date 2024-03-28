@@ -1,6 +1,6 @@
 Title: Scanning
 Date: 2024-02-09
-Summary: Short summary about scanning
+Summary: Your project's vigilant guardian. Regular scans of your projects, environment and credentials can allow you to fortify your digital assets against threats. 
 
 ### Mitigates against
 - Broken access control 
